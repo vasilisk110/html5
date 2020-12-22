@@ -3,6 +3,6 @@ async function getJson(url) {
     return await res.json();
 }
 
-export const getMeatPizza = getJson('http://my-json-server.typicode.com/vasilisk110/pizzas/meatPizza');
-export const getFirmaPizza = getJson('http://my-json-server.typicode.com/vasilisk110/pizzas/firmaPizza');
-export const getPremiumPizza = getJson('http://my-json-server.typicode.com/vasilisk110/pizzas/premiumPizza');
+export const getMeatPizza = getJson('https://my-json-server.typicode.com/vasilisk110/pizzas/meatPizza');
+export const getFirmaPizza = getJson('https://my-json-server.typicode.com/vasilisk110/pizzas/firmaPizza');
+export const getPremiumPizza = getJson('https://my-json-server.typicode.com/vasilisk110/pizzas/premiumPizza');
